@@ -1,58 +1,45 @@
-# 🎭📱 Leluri - Platform Komunitas Budaya Digital
+# 🎭📱 Leluri - Digital Culture Community Platform
 
-Platform komunitas digital untuk melestarikan budaya Indonesia melalui konten, kelas, dan marketplace. Leluri menghadirkan ruang di mana pengrajin, sanggar seni, generasi muda, kolektor, dan pecinta budaya bisa **berbagi, belajar, membeli, dan saling mendukung** dalam satu ekosistem online.
+A digital community platform to preserve Indonesian culture through content, classes, and marketplace. Leluri provides a space where artisans, art studios, youth, collectors, and culture enthusiasts can **share, learn, buy, and support each other** within one online ecosystem.
 
-👉 [Lihat demo di sini](https://leluri.vercel.app)  
+👉 [See the demo here](https://leluri.vercel.app)  
 
-## 👩‍💻 Latar Belakang Proyek
+## 👩‍💻 Project Background
 
-Proyek ini dibuat sebagai bentuk inovasi digital untuk menjawab tantangan pelestarian budaya Indonesia. Leluri hadir untuk menjembatani kesenjangan ini dengan menghadirkan platform komunitas yang difokuskan pada konten budaya.
+This project was created as a digital innovation to answer the challenges of preserving Indonesian culture. Leluri aims to bridge this gap by offering a community platform focused on cultural content.
 
-Tujuan utamanya adalah membangun **komunitas budaya digital yang suportif dan berkelanjutan**, sehingga budaya Indonesia tidak hanya dipertahankan, tetapi juga dihidupkan kembali dalam format modern.
+Its main goal is to build a **supportive and sustainable digital culture community**, so Indonesian culture is not only maintained, but also revived in a modern format.
 
-## ✨ Teknologi
+## ✨ Technology
 
-- `Next.js` (framework React untuk frontend dan fullstack logic)
+- `Next.js` (React framework for frontend and fullstack logic)
 - `React + TypeScript` (frontend development)
-- `Tailwind CSS` (styling responsif)
-- `ShadCN UI` (komponen UI modern & reusable)
+- `Tailwind CSS` (responsive styling)
+- `ShadCN UI` (modern & reusable UI components)
 - `Supabase` (database & authentication)
-- `Supabase Storage` (penyimpanan gambar & video)
-- `Vercel`(deployment)
+- `Supabase Storage` (image & video storage)
+- `Vercel` (deployment)
 
-## 🚀 Fitur
+## 🚀 Features
 
-- Beranda → menampilkan konten singkat budaya dari akun yang diikuti.
+- Home → displays short culture content from followed accounts.
+- Explore → search and filter popular content from the entire community.
+- Interaction → like, comment, and share posts.
+- Classes/Workshops → register for classes from artisans or art studios.
+- Culture Shop → showcase of cultural products.
+- User Profile → bio, contact, and user-created content.
+- Gamification → fun badge-based achievement system
 
-- Eksplorasi → cari dan filter konten populer dari seluruh komunitas.
+## 🚦 Running the Project
 
-- Interaksi → like, komentar, dan berbagi postingan.
+To run this project locally: 
 
-- Kelas/Workshop → daftar kelas dari pengrajin atau sanggar seni.
+1. Clone the repository: `git clone https://github.com/medlynhan/leluri.git`
+2. Enter the project folder: `cd leluri`
+3. Install dependencies: `npm install`
+4. Create a .env.local file and add your Supabase configuration (API Key, Project URL, etc.).
+5. Start the development server: `npm run dev`
+6. Open in your browser: `(http://localhost:3000/)`
 
-- Toko Budaya → etalase produk budaya.
-
-- Profil Pengguna → biodata, kontak, dan konten yang dibuat pengguna.
-  
-- Gamifikasi → sistem pencapaian berbasis badge yang seru
-  
-## 🚦 Menjalankan Proyek
-
-Untuk menjalankan proyek ini di lokal: 
-
-1. Clone repositori `git clone https://github.com/medlynhan/leluri.git`
-
-2. Masuk ke folder proyek  `cd leluri`
-
-3. Install dependencies `npm install`
-   
-4. Buat file .env.local dan masukkan konfigurasi Supabase (API Key, Project URL, dsb).
-
-5. Jalankan development server  `npm run dev`
-
-6. Buka di browser  `(http://localhost:3000/)`
-
-
-## 🤝 Kontribusi & Pengembangan
-Proyek ini masih dalam tahap pengembangan awal. Harapannya, proyek ini bisa terus dikembangkan bersama komunitas dan mendapatkan dukungan kolaborasi dari berbagai pihak.
-
+## 🤝 Contribution & Development
+This project is still in early development. The hope is that it can continue to grow with the community and gain collaborative support from various parties.
